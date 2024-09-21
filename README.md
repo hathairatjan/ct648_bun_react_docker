@@ -19,7 +19,7 @@
       CMD ["nginx", "-g", "daemon off;"]
      ```
 2. ไปสร้าง repository ชื่อ 66130662/ct648_bun_react ไว้ที่ Docker Hub [https://hub.docker.com/ ](https://hub.docker.com/repository/docker/66130662/ct648_bun_react/general)
-3. กลับมาที่โปรแกรม VSCODE สร้าง Docker image ชื่อ jirapornsor/ct648_bun_react_docker:0.2 จาก Dockerfile ในไดเรกทอรีปัจจุบัน และ push image ขึ้นไปยัง Docker Hub ด้วยคำสั่ง
+3. กลับมาที่โปรแกรม VSCODE สร้าง Docker image ชื่อ 66130662/ct648_bun_react:Bun จาก Dockerfile ในไดเรกทอรีปัจจุบัน และ push image ขึ้นไปยัง Docker Hub ด้วยคำสั่ง
    ```bash
    docker build -t 66130662/ct648_bun_react:Bun . --push 
    ```
