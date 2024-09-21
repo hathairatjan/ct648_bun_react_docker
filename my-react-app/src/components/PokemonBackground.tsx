@@ -12,7 +12,7 @@ const BackgroundWrapper = styled.div`
   left: 0;
   z-index: -1; /* พื้นหลังอยู่ด้านหลังของเนื้อหา */
   // background-color: #87ceeb; /* Sky blue background */
-  background-image: url("https://i.ytimg.com/vi/ekFELSnhqD8/maxresdefault.jpg"); /* เปลี่ยนเป็น URL ของภาพพื้นหลังที่ต้องการ */
+  background-image: url("https://i.ytimg.com/vi/ekFELSnhqD8/maxresdefault.jpg"); 
   background-size: cover; /* ภาพพื้นหลังครอบคลุมเต็มพื้นที่ */
   background-position: center; /* จัดตำแหน่งภาพพื้นหลังให้อยู่ตรงกลาง */
   background-repeat: no-repeat; /* ป้องกันการซ้ำของภาพพื้นหลัง */
