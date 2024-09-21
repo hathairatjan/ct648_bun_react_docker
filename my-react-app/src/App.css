@@ -40,12 +40,14 @@
 .read-the-docs {
   color: #888;
 }
-/* App.css */
+h1 {
+  color: #1ff6f6;
+}
 
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden; /* ป้องกันการเลื่อนของหน้า */
+  overflow: hidden; /* การเลื่อนของหน้า */
 }
 
 div {
@@ -54,16 +56,15 @@ div {
 
 .content {
   position: relative;
-  z-index: 1; /* ทำให้เนื้อหาอยู่ด้านบนพื้นหลัง Pokémon */
+  z-index: 1; /* เนื้อหาอยู่ด้านบนพื้นหลัง Pokémon */
   padding: 20px;
   text-align: center;
 }
-/* App.css */
 
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden; /* ป้องกันการเลื่อนของหน้า */
+  overflow: hidden; /* การเลื่อนของหน้า */
 }
 
 .app-container {
@@ -77,17 +78,17 @@ body {
   grid-template-columns: 1fr 1fr;
   height: 100%;
   position: relative;
-  z-index: 1; /* ทำให้เนื้อหาอยู่ด้านบนพื้นหลัง Pokémon */
+  z-index: 1; /* เนื้อหาอยู่ด้านบนพื้นหลัง Pokémon */
 }
 
 .left-column,
 .right-column {
   padding: 50px;
-  overflow-y: auto; /* ทำให้คอลัมน์สามารถเลื่อนเนื้อหาข้างในได้ */
+  overflow-y: auto; /* คอลัมน์สามารถเลื่อนเนื้อหาข้างในได้ */
 }
 
 .left-column {
-  border-right: 1px solid #ccc; /* เพิ่มเส้นแบ่งระหว่างคอลัมน์ */
+  border-right: 1px solid #ccc; /* เส้นแบ่งระหว่างคอลัมน์ */
 }
 
 .right-column {
@@ -96,5 +97,5 @@ body {
     255,
     255,
     0
-  ); /* เพิ่มพื้นหลังโปร่งแสงเพื่อให้มองเห็นเนื้อหาที่ด้านหลังได้ */
+  ); /* พื้นหลังโปร่งแสง */
 }
