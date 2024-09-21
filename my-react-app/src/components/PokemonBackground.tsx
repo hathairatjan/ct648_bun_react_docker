@@ -4,16 +4,16 @@ import { useSpring, animated } from "react-spring";
 
 // Define the styled component for the background
 const BackgroundWrapper = styled.div`
-  position: fixed; /* ใช้ fixed เพื่อให้พื้นหลังไม่เลื่อนไปกับเนื้อหา */
+  position: fixed; /* fixed ให้พื้นหลังไม่เลื่อนไปกับเนื้อหา */
   width: 100vw;
   height: 100vh;
   overflow: hidden;
   top: 0;
   left: 0;
-  z-index: -1; /* ให้พื้นหลังอยู่ด้านหลังของเนื้อหา */
+  z-index: -1; /* พื้นหลังอยู่ด้านหลังของเนื้อหา */
   // background-color: #87ceeb; /* Sky blue background */
   background-image: url("https://i.ytimg.com/vi/ekFELSnhqD8/maxresdefault.jpg"); /* เปลี่ยนเป็น URL ของภาพพื้นหลังที่ต้องการ */
-  background-size: cover; /* ทำให้ภาพพื้นหลังครอบคลุมเต็มพื้นที่ */
+  background-size: cover; /* ภาพพื้นหลังครอบคลุมเต็มพื้นที่ */
   background-position: center; /* จัดตำแหน่งภาพพื้นหลังให้อยู่ตรงกลาง */
   background-repeat: no-repeat; /* ป้องกันการซ้ำของภาพพื้นหลัง */
 `;
