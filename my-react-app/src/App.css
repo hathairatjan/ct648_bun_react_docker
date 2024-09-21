@@ -83,7 +83,7 @@ body {
 
 .left-column,
 .right-column {
-  padding: 50px;
+  padding: 30px;
   overflow-y: auto; /* คอลัมน์สามารถเลื่อนเนื้อหาข้างในได้ */
 }
 
