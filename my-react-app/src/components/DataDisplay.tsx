@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import "./DataDisplay.css"; // Import ไฟล์ CSS สำหรับการตกแต่ง
-import pokemonImage from "../assets/pokemon1.jpg"; // อัปเดตเส้นทางการนำเข้าถูกต้อง
+import "./DataDisplay.css"; 
+import pokemonImage from "../assets/pokemon1.jpg"; 
 
 interface JokeData {
   type: string;
